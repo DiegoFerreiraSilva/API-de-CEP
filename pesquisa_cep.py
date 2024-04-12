@@ -1,7 +1,5 @@
 # API https://viacep.com.br/
 import requests
-from pprint import pprint # Biblioteca para um print mais "bonito"
-import pandas as pd # Biblioteca para criação de tabelas
 
 # Deve se passar uma Rua e Bairo de no minímo 3 caracteres para API
 # A função json() traduz os dados JSON da API e retorna um dicionário com todos os dados do CEP
@@ -21,7 +19,6 @@ def pesquisa_endereco(uf, cidade, rua):
     except:
         return ['Endereço não localizado ou incorreto']
     
-    # tabela = pd.DataFrame(dic_requisicao)
     enderecos = list()
     for dicionario in dic_requisicao:
         lista = list()
