@@ -1,2 +1,2 @@
 # API-de-CEP
-Código Python com interface utilizando a biblioteca PySimpleGUI e a API ViaCEP
+Código Python de localização de CEP ou endereços utilizando a API ViaCEP e interface feita com a biblioteca PySimpleGUI
